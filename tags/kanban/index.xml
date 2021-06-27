@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kanban on Daniel Santos</title>
+    <link>http://danielsantos.org/tags/kanban/</link>
+    <description>Recent content in kanban on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/tags/kanban/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Torne o trabalho de TI visível com Kanban</title>
+      <link>http://danielsantos.org/artigos/torne-o-trabalho-de-ti-visivel-com-kanban/</link>
+      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/artigos/torne-o-trabalho-de-ti-visivel-com-kanban/</guid>
+      <description>Você sabia que o trabalho em um departamento de TI é essencialmente invisível?
+Ao contrário do que pode ser encontrado no chão de fábrica — pilhas de produtos não concluídos espalhados pela linha de produção —, as informações e os conhecimentos aplicados na execução das atividades de Tecnologia da Informação para a entrega de projetos estão registrados em documentos e sistemas.
+É aí que entra o Kanban, técnica trazida para o mundo dos projetos de TI por David Anderson, que em 2003 publicou o livro &amp;ldquo;Agile Management for Software Engineering — Applying the Theory of Constraints for Software Projects&amp;rdquo; onde adaptou os conceitos de sistema puxado ao desenvolvimento de software.</description>
+    </item>
+    
+    <item>
+      <title>Quer ajudar seu filho com a tarefa? Use Kanban!</title>
+      <link>http://danielsantos.org/2016/06/quer-ajudar-seu-filho-com-a-tarefa-use-kanban/</link>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2016/06/quer-ajudar-seu-filho-com-a-tarefa-use-kanban/</guid>
+      <description>O tempo passa muito depressa mesmo: Meu filho mais velho chegou à sexta série no colégio em que estuda. Trata-se de uma fase em que a quantidade de matérias que a escola repassa a ele e seus colegas triplica ou quadriplica, atingindo proporções nunca antes enfrentadas por ele.
+Como se adaptar à uma mudança na quantidade de tarefas e obrigações que precisam ser concluídas pode levar um certo tempo, é mais do que natural que, ao longo do processo, algumas das tarefas por fazer acabem sendo esquecidas: Se nós adultos já estamos sujeitos a passar por isso &amp;mdash; ao gerenciarmos algumas centenas de atividades por mês &amp;mdash;, que dirá nossos filhos, não é mesmo?</description>
+    </item>
+    
+  </channel>
+</rss>

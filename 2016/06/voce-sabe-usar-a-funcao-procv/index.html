@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Você sabe usar a função PROCV()? - Daniel Santos</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="Você sabe usar a função PROCV()?">
+<meta itemprop="description" content="Esta vem do tempo em que eu ainda dava aula de informática &mdash; ou, pasmem, computação&mdash;, lá pelos idos do século passado. Até hoje, muitas pessoas não sabem ao certo para que serve a função PROCV do Excel: algumas delas, inclusive, trabalharam comigo, e, como sempre procuro eesclarecer a elas os benefícios que pode proporcionar, resolvi criar um post a esse respeito por aqui.
+Para que serve PROCV? A função PROCV &mdash; que recebe este nome, na verdade, por ser uma abreviação, até onde sempre imaginei, de PROCura na Vertical &mdash; é uma das diversas funções disponibilizadas pela Microsoft no Excel para realização de pesquisas, ou busca de referências.">
+<meta itemprop="datePublished" content="2016-06-04T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2016-06-04T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="255">
+
+
+
+<meta itemprop="keywords" content="excel,dicas," /><meta property="og:title" content="Você sabe usar a função PROCV()?" />
+<meta property="og:description" content="Esta vem do tempo em que eu ainda dava aula de informática &mdash; ou, pasmem, computação&mdash;, lá pelos idos do século passado. Até hoje, muitas pessoas não sabem ao certo para que serve a função PROCV do Excel: algumas delas, inclusive, trabalharam comigo, e, como sempre procuro eesclarecer a elas os benefícios que pode proporcionar, resolvi criar um post a esse respeito por aqui.
+Para que serve PROCV? A função PROCV &mdash; que recebe este nome, na verdade, por ser uma abreviação, até onde sempre imaginei, de PROCura na Vertical &mdash; é uma das diversas funções disponibilizadas pela Microsoft no Excel para realização de pesquisas, ou busca de referências." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://danielsantos.org/2016/06/voce-sabe-usar-a-funcao-procv/" />
+<meta property="article:published_time" content="2016-06-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-06-04T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Você sabe usar a função PROCV()?"/>
+<meta name="twitter:description" content="Esta vem do tempo em que eu ainda dava aula de informática &mdash; ou, pasmem, computação&mdash;, lá pelos idos do século passado. Até hoje, muitas pessoas não sabem ao certo para que serve a função PROCV do Excel: algumas delas, inclusive, trabalharam comigo, e, como sempre procuro eesclarecer a elas os benefícios que pode proporcionar, resolvi criar um post a esse respeito por aqui.
+Para que serve PROCV? A função PROCV &mdash; que recebe este nome, na verdade, por ser uma abreviação, até onde sempre imaginei, de PROCura na Vertical &mdash; é uma das diversas funções disponibilizadas pela Microsoft no Excel para realização de pesquisas, ou busca de referências."/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://danielsantos.org/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://danielsantos.org/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://danielsantos.org/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="http://danielsantos.org/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="http://danielsantos.org/">
+				<img src="https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg" alt="Daniel Santos" />
+			</a>
+		</div>
+	
+	<h1 class="site-title"><a href="http://danielsantos.org/">Daniel Santos</a></h1>
+	<div class="site-description"><p>Crisp, minimal personal <a href="https://github.com/knadh/hugo-ink">blog theme for Hugo</a></p><nav class="nav social">
+			<ul class="flat"><li><a href="https://twitter.com/dldsantos" title="Twitter"><i data-feather="twiter"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Posts</a>
+			</li>
+			
+			<li>
+				<a href="/artigos">Artigos</a>
+			</li>
+			
+			<li>
+				<a href="/links">Links</a>
+			</li>
+			
+			<li>
+				<a href="/sobre">Sobre</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">04</span>
+							<span class="rest">Jun 2016</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Você sabe usar a função PROCV()?</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p>Esta vem do tempo em que eu ainda dava aula de informática &mdash; ou, pasmem, <em>computação</em>&mdash;, lá pelos idos do século passado. Até hoje, muitas pessoas não sabem ao certo para que serve a função <strong>PROCV</strong> do Excel: algumas delas, inclusive, trabalharam comigo, e,  como sempre procuro eesclarecer a elas os benefícios que pode proporcionar, resolvi criar um post a esse respeito por aqui.</p>
+<h4 id="para-que-serve-procv">Para que serve PROCV?</h4>
+<p>A função PROCV &mdash; que recebe este nome, na verdade, por ser uma abreviação, até onde sempre imaginei, de <strong>PROC</strong>ura na <strong>V</strong>ertical &mdash; é uma das diversas funções disponibilizadas pela Microsoft no Excel para realização de pesquisas, ou busca de referências.</p>
+<p>Quando você tem que encontrar valores que estejam em linhas de uma tabela ou de um intervalo de uma planilha &mdash; por exemplo, procurar pela idade de uma pessoa com base em um dado número de identificação, que pode ser um número de matrícula, documento, ou outra coisa qualquer, recomenda-se usar a função <strong>PROCV</strong>.</p>
+<h4 id="como-eu-uso">COMO EU USO?</h4>
+<p>Apesar de, como eu disse, essa história de PROCV remontar à época em que dei aula em escolas de informática, muita gente pra quem eu falo de PROCV **nunca ouviu <em>de fato <em>falar da função</em></em>.</p>
+<!-- raw HTML omitted -->
+<p>Pensando em alcançar o maior número de pessoas que eu conseguir com alguma explicação razoável, criei um exemplo usando a versão do Excel que acompanha o Office 365, do qual possuo uma assinatura, e registrei tudo em vídeo. O resultado está no vídeo publicado acima, que eu espero que ajude você com algum aprendizado.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/excel">excel</a></li>
+							
+							<li><a href="/tags/dicas">dicas</a></li>
+							
+						</ul>
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2021  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+</body>
+</html>

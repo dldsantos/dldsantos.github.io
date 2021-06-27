@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutoriais on Daniel Santos</title>
+    <link>http://danielsantos.org/tags/tutoriais/</link>
+    <description>Recent content in tutoriais on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 04 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/tags/tutoriais/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Changed too recently: Como resolver</title>
+      <link>http://danielsantos.org/2018/03/changed-too-recently-como-resolver/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2018/03/changed-too-recently-como-resolver/</guid>
+      <description>Eu sempre procurei ser muito cuidadoso com minhas contas de usuário e suas respectivas senhas. Para tanto, faço uso do 1Password já há algum tempo, guardando praticamente tudo por lá e gerando senhas complexas, compridas e diferentes para cada uma destas contas. Inclusive, sempre que disponível, associo à senha o recurso de 2 factor authentication, que combina senha e algum outro tipo de recurso adicional de autenticação, como o informe de um código que chega no seu celular, por exemplo.</description>
+    </item>
+    
+    <item>
+      <title>Segundos em hh:mm:ss no Excel</title>
+      <link>http://danielsantos.org/2017/10/segundos-em-hhmmss-no-excel/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2017/10/segundos-em-hhmmss-no-excel/</guid>
+      <description>Você já precisou converter um valor expresso em segundos para horas, minutos e segundos (HH:MM:SS) usando o Excel?
+Se você é um usuário do Excel no dia-a-dia, pode ser que tenha uma planilha onde estes valores estão em uma determinada coluna, apenas esperando para serem convertidos e utilizados em um relatório que você está gerando. Se você é um usuário um pouco mais avançado e está envolvido com programação de macros em VBA, provavelmente já passou por pelo menos uma situação em que, dado um tempo de processamento de uma rotina ou job em segundos, era necessário realizar e apresentar os resultados desta conversão.</description>
+    </item>
+    
+    <item>
+      <title>Como enviar uma mensagem de WhatsApp para um número que não está nos seus contatos</title>
+      <link>http://danielsantos.org/2017/08/10/enviar-whatsapp-numero-nao-contatos/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2017/08/10/enviar-whatsapp-numero-nao-contatos/</guid>
+      <description>Com o WhatsApp tendo se tornado a opção número um de milhões de pessoas para comunicação através de mensagens instantâneas, não é de se admirar que algumas vezes nos vejamos às voltas com a seguinte situação: Você precisa enviar uma mensagem através do WhatsApp para alguém, mas não tem o número da pessoa cadastrado em seu celular.
+A situação, embora possa não parecer, é mais comum do que parece: Você pode estar fazendo negociações em sites de leilão como o Mercado Livre, comprando ou vendendo produtos no OLX, ou algo similar.</description>
+    </item>
+    
+  </channel>
+</rss>

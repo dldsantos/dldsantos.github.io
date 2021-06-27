@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tecnologia on Daniel Santos</title>
+    <link>http://danielsantos.org/tags/tecnologia/</link>
+    <description>Recent content in tecnologia on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/tags/tecnologia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O Professor Corujinha</title>
+      <link>http://danielsantos.org/2018/08/o-professor-corujinha/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2018/08/o-professor-corujinha/</guid>
+      <description>Estava navegando no meu feed do Twitter ontem, quando me deparei com este tweet do Pulp Librarian:
+In the 1970s the cost - and size - of calculators tumbled. Business tools became toys; as a result prestige tech companies had to rapidly diversify into other products - or die! This is the story of the 1970s great calculator race... pic.twitter.com/37Uy6o35PX
+&amp;mdash; Pulp Librarian (@PulpLibrarian) August 18, 2018  Eu, que vivi boa parte da época das calculadoras, me prendi à história: É interessante como o custo e o tamanho delas despencou na década de 1970, transformando ferramentas que você só veria em escritórios em verdadeiros brinquedos.</description>
+    </item>
+    
+    <item>
+      <title>Ensinando informática num quadro negro</title>
+      <link>http://danielsantos.org/2018/03/ensinando-informatica-num-quadro-negro/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2018/03/ensinando-informatica-num-quadro-negro/</guid>
+      <description>Estava assistindo edição de ontem do Telediario, telejornal da RTVE, como mais um dos meus esforços para aprender espanhol, quando me deparei com uma situação que me fez ter certeza de que a capacidade que os seres humanos têm de superar dificuldades nunca deve ser subestimada.
+Richard Appiah Akoto é um professor de 33 anos que leciona Tecnologia da Informação e Comunicação (TIC) no Betenase M/A Junior High School da cidade de Sekyedomase, em Gana, uma escola que não tem um computador sequer, ainda que, naquele país, desde 2011, as crianças entre 14 e 15 anos de idade devam ser aprovadas em um exame nacional sem os quais não poderão ingressar na faculdade, onde TIC é uma das matérias.</description>
+    </item>
+    
+  </channel>
+</rss>

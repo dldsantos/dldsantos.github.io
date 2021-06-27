@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Segundos em hh:mm:ss no Excel - Daniel Santos</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="Segundos em hh:mm:ss no Excel">
+<meta itemprop="description" content="Você já precisou converter um valor expresso em segundos para horas, minutos e segundos (HH:MM:SS) usando o Excel?
+Se você é um usuário do Excel no dia-a-dia, pode ser que tenha uma planilha onde estes valores estão em uma determinada coluna, apenas esperando para serem convertidos e utilizados em um relatório que você está gerando. Se você é um usuário um pouco mais avançado e está envolvido com programação de macros em VBA, provavelmente já passou por pelo menos uma situação em que, dado um tempo de processamento de uma rotina ou job em segundos, era necessário realizar e apresentar os resultados desta conversão.">
+<meta itemprop="datePublished" content="2017-10-01T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-10-01T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="706">
+
+
+
+<meta itemprop="keywords" content="excel,tutoriais," /><meta property="og:title" content="Segundos em hh:mm:ss no Excel" />
+<meta property="og:description" content="Você já precisou converter um valor expresso em segundos para horas, minutos e segundos (HH:MM:SS) usando o Excel?
+Se você é um usuário do Excel no dia-a-dia, pode ser que tenha uma planilha onde estes valores estão em uma determinada coluna, apenas esperando para serem convertidos e utilizados em um relatório que você está gerando. Se você é um usuário um pouco mais avançado e está envolvido com programação de macros em VBA, provavelmente já passou por pelo menos uma situação em que, dado um tempo de processamento de uma rotina ou job em segundos, era necessário realizar e apresentar os resultados desta conversão." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://danielsantos.org/2017/10/segundos-em-hhmmss-no-excel/" />
+<meta property="article:published_time" content="2017-10-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-10-01T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Segundos em hh:mm:ss no Excel"/>
+<meta name="twitter:description" content="Você já precisou converter um valor expresso em segundos para horas, minutos e segundos (HH:MM:SS) usando o Excel?
+Se você é um usuário do Excel no dia-a-dia, pode ser que tenha uma planilha onde estes valores estão em uma determinada coluna, apenas esperando para serem convertidos e utilizados em um relatório que você está gerando. Se você é um usuário um pouco mais avançado e está envolvido com programação de macros em VBA, provavelmente já passou por pelo menos uma situação em que, dado um tempo de processamento de uma rotina ou job em segundos, era necessário realizar e apresentar os resultados desta conversão."/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://danielsantos.org/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://danielsantos.org/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://danielsantos.org/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="http://danielsantos.org/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="http://danielsantos.org/">
+				<img src="https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg" alt="Daniel Santos" />
+			</a>
+		</div>
+	
+	<h1 class="site-title"><a href="http://danielsantos.org/">Daniel Santos</a></h1>
+	<div class="site-description"><p>Crisp, minimal personal <a href="https://github.com/knadh/hugo-ink">blog theme for Hugo</a></p><nav class="nav social">
+			<ul class="flat"><li><a href="https://twitter.com/dldsantos" title="Twitter"><i data-feather="twiter"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Posts</a>
+			</li>
+			
+			<li>
+				<a href="/artigos">Artigos</a>
+			</li>
+			
+			<li>
+				<a href="/links">Links</a>
+			</li>
+			
+			<li>
+				<a href="/sobre">Sobre</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">01</span>
+							<span class="rest">Oct 2017</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Segundos em hh:mm:ss no Excel</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p>Você já precisou converter um valor expresso em segundos para <strong>horas</strong>, <strong>minutos</strong> e <strong>segundos</strong> (HH:MM:SS) usando o Excel?</p>
+<p>Se você é um usuário do Excel no dia-a-dia, pode ser que tenha uma planilha onde estes valores estão em uma determinada coluna, apenas esperando para serem convertidos e utilizados em um relatório que você está gerando. Se você é um usuário um pouco mais avançado e está envolvido com programação de <strong>macros em VBA</strong>, provavelmente já passou por pelo menos uma situação em que, dado um tempo de processamento de uma rotina ou <em>job</em> em segundos, era necessário realizar e apresentar os resultados desta conversão.</p>
+<p>Neste artigo, vou lhes mostrar como atingir os dois resultados, <strong>de forma muito simples</strong>.</p>
+<h3 id="sou-um-usurio-comum-do-excel-o-que-preciso-fazer"><strong>Sou um usuário comum do Excel, o que preciso fazer?</strong></h3>
+<p>Ao me referir a <em>usuário comum</em>, estou apenas dizendo que você nunca ouviu falar em VBA&mdash; ou que você não precisa disso, no momento.</p>
+<p>Neste caso, dê uma olhada na imagem a seguir. A coluna **A **apresenta valores hipotéticos em segundos, sendo estes números inteiros, ou seja, sem casas decimais. Na coluna **B **estão representados os tempos, já expressos em <strong>horas</strong>, **minutos **e <strong>segundos</strong>. Para chegar a este resultado, você precisa apenas de uma <strong>divisão simples</strong> e de uma <strong>formatação</strong>, oferecida pelo próprio Excel. Vejamos:</p>
+
+
+
+
+
+
+
+	
+	
+		
+		
+
+
+<span style="display:block;text-align:center">
+	<img src="/img/posts/hhmmss-excel.png" alt="HH:MM:SS no Excel" />
+</span>
+<p>Tomando por base a célula <strong>B2</strong>, vamos inspecionar seu conteúdo:</p>
+
+
+
+
+
+
+
+	
+	
+		
+		
+
+
+<span style="display:block;text-align:center">
+	<img src="/img/posts/hhmmss-excel-2.png" alt="HH:MM:SS no Excel" />
+</span>
+<p>Veja que o número total de segundos da célula <strong>A2</strong> (33312) está sendo dividido por <strong>86400</strong>. Este não é um valor aleatório: Representa o <strong>total de segundos existentes em um dia</strong> completo. Chega-se a este valor multiplicando-se 60 segundos x 60 minutos x 24 horas, e trata-se de uma <strong>constante</strong>, ou seja, não haverá mudança neste total, pois os dias como os conhecemos sempre terão esta quantidade de segundos.</p>
+<p>Mas, como eu disse anteriormente, a divisão acima precisa estar acompanhada de uma <strong>formatação</strong>. Existem diversas maneiras de acessar as opções de formatação de células no Excel, mas vou me ater a uma que você pode acionar a partir do próprio teclado. Selecione as células que você deseja formatar e pressione a combinação de teclas <code>CTRL</code> + <code>1</code>.</p>
+
+
+
+
+
+
+
+	
+	
+		
+		
+
+
+<span style="display:block;text-align:center">
+	<img src="/img/posts/hhmmss-excel-3.png" alt="HH:MM:SS no Excel" />
+</span>
+<p>Uma vez tendo acessado as opções de formatação do conjunto de células, escolha, na guia <strong>Número</strong>, entre as categorias apresentadas, a opção <strong>Personalizado</strong>. Veja que existe uma lista de valores pré-definidos, e que basta você escolher a opção <strong>hh:mm:ss</strong> entre as que estão disponíveis. Uma vez feita a seleção, clicar sobre o botão OK resultará na formatação desejada, conforme a primeira imagem que ilustra este texto.</p>
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+	
+	
+	
+		
+	
+
+
+<style type="text/css">
+	.box {
+		margin: 0 0 1.5em 0;
+		border-width: 2px;
+		border-style: solid;
+		border-color: #44ccff;
+	}
+	.box-title {
+		display: block;
+		padding: 0.5em 1em;
+		font-weight: bold;
+		font-size: 1.1em;
+		background-color: #44ccff;
+		color: #fff;
+	}
+	.box-content {
+		color: #000;
+		background-color: #EEE;
+		padding: 1em;
+	}
+</style>
+
+<div class="box">
+	<div class="box-title">
+		Dica
+	</div>
+	<div class="box-content">
+		Se ao invés de representar seus valores em horas, minutos e segundos você precisa representá-los em <strong>dias</strong>, <strong>horas</strong>, **minutos **e <strong>segundos</strong>, nada tema. Utilizando o mesmo método descrito acima, você pode digitar uma formatação diferente, usando o formato <strong>dd:hh:mm:ss</strong> e obter seu resultado facilmente, tal como demonstro abaixo:</p>
+<!-- raw HTML omitted -->
+	</div>
+</div>
+
+<p>Espero que as dicas acima tenham ajudado você.</p>
+<h3 id="sou-um-conhecedor-de-vba-como-resolvo-isso-com-programao"><strong>Sou um conhecedor de VBA. Como resolvo isso com programação?</strong></h3>
+<p>Usuários de VBA, ou **Visual Basic for Applications **estarão em busca de uma solução que utilize código. Para que isso seja possível, no entanto, as considerações que explico acima são as mesmas. Você também precisará converter o valor total em segundos para um decimal, utilizando a divisão por <strong>86400</strong>. Uma vez que tenha este valor, pode apresentá-lo na formatação que desejar.</p>
+<p>Estou assumindo que você está familiarizado com o editor de código do Excel, então abra-o e utilize a função abaixo:</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-vb" data-lang="vb">	<span style="color:#719e07">Function</span> <span style="color:#268bd2">SegundosEmTempo</span>(celula <span style="color:#719e07">As</span> Range)
+	<span style="color:#586e75">&#39; Função simples para converter um valor em segundos para hh:mm:ss
+</span><span style="color:#586e75"></span>	<span style="color:#586e75">&#39; Por Daniel Santos
+</span><span style="color:#586e75"></span>	<span style="color:#586e75">&#39; http://danielsantos.org/
+</span><span style="color:#586e75"></span>	<span style="color:#586e75">&#39;
+</span><span style="color:#586e75"></span>	 <span style="color:#719e07">If</span> <span style="color:#719e07">Not</span> IsNumeric(celula.Value) <span style="color:#719e07">Then</span>
+	 <span style="color:#586e75">&#39;Retorna um erro caso o valor não seja numérico
+</span><span style="color:#586e75"></span>	 SegundosEmTempo <span style="color:#719e07">=</span> CVErr(xlErrNum)
+	 <span style="color:#719e07">Else</span>
+	 <span style="color:#586e75">&#39;Divide o valor da célula por 86400 e formata, como no caso
+</span><span style="color:#586e75"></span>	 <span style="color:#586e75">&#39;de uma planilha comum...
+</span><span style="color:#586e75"></span>	 SegundosEmTempo <span style="color:#719e07">=</span> Format(celula.Value <span style="color:#719e07">/</span> 86400, <span style="color:#2aa198">&#34;</span><span style="color:#2aa198">dd:hh:mm:ss</span><span style="color:#2aa198">&#34;</span>)
+	 <span style="color:#719e07">End</span> <span style="color:#719e07">If</span>
+	<span style="color:#719e07">End</span> <span style="color:#719e07">Function</span></code></pre></div>
+<p>Lembrando que já que criamos o código acima como uma <strong>função</strong>, o mesmo pode ser executado através da própria planilha no Excel, bem como reaproveitado ou ajustado conforme suas próprias necessidades, em seu próprio código.</p>
+<p>Espero ter ajudado.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/excel">excel</a></li>
+							
+							<li><a href="/tags/tutoriais">tutoriais</a></li>
+							
+						</ul>
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2021  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+</body>
+</html>

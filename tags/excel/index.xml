@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>excel on Daniel Santos</title>
+    <link>http://danielsantos.org/tags/excel/</link>
+    <description>Recent content in excel on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 06 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/tags/excel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selecione apenas as células visíveis no Excel</title>
+      <link>http://danielsantos.org/2017/11/selecione-apenas-as-celulas-visiveis-no-excel/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2017/11/selecione-apenas-as-celulas-visiveis-no-excel/</guid>
+      <description>Já aconteceu com todo mundo que eu conheço: O Excel pode agir de forma inesperada quando você resolve copiar e colar uma determinada faixa de células de uma planilha. O comportamento padrão da ferramenta é copiar e colar todas as células, ainda que algumas delas estejam ocultas, qualquer que seja o motivo para isso.
+Só que, às vezes, o que você quer fazer é trabalhar só com os dados que estão visíveis.</description>
+    </item>
+    
+    <item>
+      <title>Segundos em hh:mm:ss no Excel</title>
+      <link>http://danielsantos.org/2017/10/segundos-em-hhmmss-no-excel/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2017/10/segundos-em-hhmmss-no-excel/</guid>
+      <description>Você já precisou converter um valor expresso em segundos para horas, minutos e segundos (HH:MM:SS) usando o Excel?
+Se você é um usuário do Excel no dia-a-dia, pode ser que tenha uma planilha onde estes valores estão em uma determinada coluna, apenas esperando para serem convertidos e utilizados em um relatório que você está gerando. Se você é um usuário um pouco mais avançado e está envolvido com programação de macros em VBA, provavelmente já passou por pelo menos uma situação em que, dado um tempo de processamento de uma rotina ou job em segundos, era necessário realizar e apresentar os resultados desta conversão.</description>
+    </item>
+    
+    <item>
+      <title>Você sabe usar a função PROCV()?</title>
+      <link>http://danielsantos.org/2016/06/voce-sabe-usar-a-funcao-procv/</link>
+      <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2016/06/voce-sabe-usar-a-funcao-procv/</guid>
+      <description>Esta vem do tempo em que eu ainda dava aula de informática &amp;mdash; ou, pasmem, computação&amp;mdash;, lá pelos idos do século passado. Até hoje, muitas pessoas não sabem ao certo para que serve a função PROCV do Excel: algumas delas, inclusive, trabalharam comigo, e, como sempre procuro eesclarecer a elas os benefícios que pode proporcionar, resolvi criar um post a esse respeito por aqui.
+Para que serve PROCV? A função PROCV &amp;mdash; que recebe este nome, na verdade, por ser uma abreviação, até onde sempre imaginei, de PROCura na Vertical &amp;mdash; é uma das diversas funções disponibilizadas pela Microsoft no Excel para realização de pesquisas, ou busca de referências.</description>
+    </item>
+    
+  </channel>
+</rss>

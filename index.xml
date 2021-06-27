@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bem-vindo! - Daniel Santos on Daniel Santos</title>
+    <link>http://danielsantos.org/</link>
+    <description>Recent content in Bem-vindo! - Daniel Santos on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Encontre o enésimo caracter em uma célula do Excel</title>
+      <link>http://danielsantos.org/2019/11/encontre-o-enesimo-caracter-em-uma-celula-do-excel/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2019/11/encontre-o-enesimo-caracter-em-uma-celula-do-excel/</guid>
+      <description>Hoje compartilharei com vocês uma solução simples para encontrar a posição do enésimo caracter em uma cadeia de texto, ou string, dentro de uma célula do Excel, utilizando as funções LOCALIZARkeyboard {font-size: 0.8em;background-color: #fff;padding: 0px 1px 0px 1px;;border-style: solid;border-width: 1px 1px 1px 1px;border-radius: 4px;}e SUBSTITUIRkeyboard {font-size: 0.8em;background-color: #fff;padding: 0px 1px 0px 1px;;border-style: solid;border-width: 1px 1px 1px 1px;border-radius: 4px;}.</description>
+    </item>
+    
+    <item>
+      <title>O avô, o neto e o burro... e as críticas</title>
+      <link>http://danielsantos.org/artigos/20191124-o-avo-o-neto-e-o-burro-e-as-criticas/</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/artigos/20191124-o-avo-o-neto-e-o-burro-e-as-criticas/</guid>
+      <description>Certamente, se você vive entre os seres humanos, já deve ter recebido alguma crítica que considerou injusta, ou mesmo maldosa.
+Por isso eu resolvi compartilhar esta versão1 da conhecida fábula de Esopo:
+ O avô e seu neto iam ao mercado para vender seu burro.
+Enquanto eles andavam pela estrada, iam a pé ao lado do burro. Então um camponês passou por eles e disse: “Seus tolos, para que mais serve um burro, senão para que se ande por aí em cima dele?</description>
+    </item>
+    
+    <item>
+      <title>Torne o trabalho de TI visível com Kanban</title>
+      <link>http://danielsantos.org/artigos/torne-o-trabalho-de-ti-visivel-com-kanban/</link>
+      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/artigos/torne-o-trabalho-de-ti-visivel-com-kanban/</guid>
+      <description>Você sabia que o trabalho em um departamento de TI é essencialmente invisível?
+Ao contrário do que pode ser encontrado no chão de fábrica — pilhas de produtos não concluídos espalhados pela linha de produção —, as informações e os conhecimentos aplicados na execução das atividades de Tecnologia da Informação para a entrega de projetos estão registrados em documentos e sistemas.
+É aí que entra o Kanban, técnica trazida para o mundo dos projetos de TI por David Anderson, que em 2003 publicou o livro &amp;ldquo;Agile Management for Software Engineering — Applying the Theory of Constraints for Software Projects&amp;rdquo; onde adaptou os conceitos de sistema puxado ao desenvolvimento de software.</description>
+    </item>
+    
+    <item>
+      <title>Como ensinar algoritmos para quem não programa</title>
+      <link>http://danielsantos.org/2019/11/como-ensinar-algoritmos-para-quem-nao-programa/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2019/11/como-ensinar-algoritmos-para-quem-nao-programa/</guid>
+      <description>Algoritmos, conforme me lembro da época do colégio técnico e da faculdade de Ciências da Computação, são &amp;ldquo;conjuntos das regras e procedimentos lógicos, perfeitamente definidos, que levam à solução de um problema em um número finito de etapas&amp;quot;.
+Simples, não é mesmo? Bom, à medida em que praticamos, é verdade.
+Mas, até que você consiga pegar o jeito, tem que prestar uma enorme atenção na descrição das etapas e no nível de detalhe correto, para que a solução seja realmente satisfatória, assim como as crianças deste vídeo estão prestes a descobrir.</description>
+    </item>
+    
+    <item>
+      <title>Soluços</title>
+      <link>http://danielsantos.org/2019/11/solucos/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2019/11/solucos/</guid>
+      <description>Quem nunca teve uma crise de soluços do nada que atire a primeira pedra.
+Alias, convenhamos que sempre que a gente soluça aparece alguém que conhece uma técnica, receita ou fórmula mágica pra acabar com eles, não é mesmo?
+Confesso que eu gosto dessas técnicas. São meio que lifehacks, à sua maneira. Algumas são bem antigas e já me eram sugeridas pela minha avó, como beber água, colocar a língua bem pra fora e segurar com os dedos ou prender a respiração por alguns segundos, sendo que a lógica dessas coisas é corrigir contrações involuntárias do diafragma, causa dos soluços.</description>
+    </item>
+    
+    <item>
+      <title>Do Wordpress para o Hugo</title>
+      <link>http://danielsantos.org/2019/11/do-wordpress-para-o-hugo/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2019/11/do-wordpress-para-o-hugo/</guid>
+      <description>Movido por uma insatisfação que já me consumia há algum tempo, tomei uma decisão: Troquei o Wordpress pelo Hugo CMS para gerar o conteúdo deste site. Na prática, isso significa que mudei de um site dinâmico para um estático.
+Qual a diferença entre site dinâmico e site estático? A diferença básica está no conteúdo. É simples:
+  Sites dinâmicos são aqueles que alteram o conteúdo de suas páginas dinamicamente sempre que elas são exibidas no navegador de um usuário.</description>
+    </item>
+    
+    <item>
+      <title>O modelo ADKAR e o respeito à faixa de pedestres</title>
+      <link>http://danielsantos.org/artigos/o-modelo-adkar-e-o-respeito-a-faixa-de-pedestres/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/artigos/o-modelo-adkar-e-o-respeito-a-faixa-de-pedestres/</guid>
+      <description>Recebi por WhatsApp nesta semana um vídeo muito interessante: trata-se de uma campanha de conscientização idealizada pela Société de l’assurance automobile du Québec (SAAQ), órgão canadense equivalente ao Detran brasileiro para os habitantes da província do Quebec.
+O vídeo, publicado pela SAAQ em seu canal do YouTube no último dia 30 de outubro, mostra a dificuldade que os pedestres têm em atravessar a rua utilizando a faixa apropriada para isso.</description>
+    </item>
+    
+    <item>
+      <title>Sobre batatas quentes e desafios</title>
+      <link>http://danielsantos.org/artigos/20191107-sobre-batatas-quentes-e-desafios/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/artigos/20191107-sobre-batatas-quentes-e-desafios/</guid>
+      <description>Dinâmicas em grupo não são exatamente as atividades favoritas de muita gente que eu conheço. No entanto, devo reconhecer que, em algumas situações elas não apenas vêm bem a calhar, como também nos trazem algum tipo de ensinamento valioso, e é justamente sobre uma destas ocasiões que eu quero falar.
+Participei recentemente de um evento organizado por meu gerente, com a presença de todo o seu time. O evento contou com apoio do RH e, quando todas as atividades propostas foram concluídas, pediram que nos organizássemos para formar um grande círculo.</description>
+    </item>
+    
+    <item>
+      <title>Falha de Comunicação</title>
+      <link>http://danielsantos.org/artigos/20180907-falha-de-comunicacao/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/artigos/20180907-falha-de-comunicacao/</guid>
+      <description>O que reproduzo abaixo é o que chamaria de piada corporativa. Trata-se de um texto que circulou há muito tempo e que, mesmo assim, continua sendo bastante atual, já que lida com um dos assuntos que historicamente mais causam problemas em qualquer empresa, não importa o seu tamanho: a comunicação.
+Se a comunicação for falha, duplicada ou cheia de ruídos, atravessará todos os departamentos das corporações de maneira equivocada e acabará prejudicando uma das condições básicas para o atingimento da eficácia.</description>
+    </item>
+    
+    <item>
+      <title>Dê adeus aos seus comprovantes de votação</title>
+      <link>http://danielsantos.org/2018/08/de-adeus-aos-seus-comprovantes-de-votacao/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2018/08/de-adeus-aos-seus-comprovantes-de-votacao/</guid>
+      <description>.box {margin: 0 0 1.5em 0;border-width: 2px;border-style: solid;border-color: #44ccff;}.box-title {display: block;padding: 0.5em 1em;font-weight: bold;font-size: 1.1em;background-color: #44ccff;color: #fff;}.box-content {color: #000;background-color: #EEE;padding: 1em;}NotaEsta é uma versão atualizada do texto que eu publiquei na antiga versão do meu site, em 14/09/2010. Nela, os endereços de todos os links foram revisados para que a informação continue sendo útil.</description>
+    </item>
+    
+    <item>
+      <title>O Professor Corujinha</title>
+      <link>http://danielsantos.org/2018/08/o-professor-corujinha/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2018/08/o-professor-corujinha/</guid>
+      <description>Estava navegando no meu feed do Twitter ontem, quando me deparei com este tweet do Pulp Librarian:
+In the 1970s the cost - and size - of calculators tumbled. Business tools became toys; as a result prestige tech companies had to rapidly diversify into other products - or die! This is the story of the 1970s great calculator race... pic.twitter.com/37Uy6o35PX
+&amp;mdash; Pulp Librarian (@PulpLibrarian) August 18, 2018  Eu, que vivi boa parte da época das calculadoras, me prendi à história: É interessante como o custo e o tamanho delas despencou na década de 1970, transformando ferramentas que você só veria em escritórios em verdadeiros brinquedos.</description>
+    </item>
+    
+    <item>
+      <title>Minha página Now</title>
+      <link>http://danielsantos.org/2018/08/minha-pagina-now/</link>
+      <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2018/08/minha-pagina-now/</guid>
+      <description>Em todas as versões que este site já teve, sempre incluí uma página sobre mim, para que quem me visitasse na grande rede mundial de computadores pudesse saber um pouco sobre o que faço, de onde vim, e assim por diante.
+Só que outro dia, estava navegando aleatoriamente e acabei encontrando a página do Derek Sivers, onde descobri um movimento que ele batizou de /now page movement.
+ What is a “now page”?</description>
+    </item>
+    
+    <item>
+      <title>8 regras para deixar seu e-mail mais lean</title>
+      <link>http://danielsantos.org/artigos/20180805-regras-para-deixar-seu-email-mais-lean/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/artigos/20180805-regras-para-deixar-seu-email-mais-lean/</guid>
+      <description>De acordo com o que diz a Wikipedia, Quinto Túlio Cícero foi um político e general romano que atuou sob o comando de Júlio César durante o período de praticamente seis anos em que duraram as Guerras da Gália. A este personagem histórico é atribuída a seguinte frase: &amp;ldquo;O objetivo da comunicação não é ser compreendido, é tornar impossível ser mal compreendido&amp;quot;.
+Na época em que meus pais trabalhavam em indústria, a coisa era muito mais simples: Você queria se comunicar com alguém?</description>
+    </item>
+    
+    <item>
+      <title>Changed too recently: Como resolver</title>
+      <link>http://danielsantos.org/2018/03/changed-too-recently-como-resolver/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2018/03/changed-too-recently-como-resolver/</guid>
+      <description>Eu sempre procurei ser muito cuidadoso com minhas contas de usuário e suas respectivas senhas. Para tanto, faço uso do 1Password já há algum tempo, guardando praticamente tudo por lá e gerando senhas complexas, compridas e diferentes para cada uma destas contas. Inclusive, sempre que disponível, associo à senha o recurso de 2 factor authentication, que combina senha e algum outro tipo de recurso adicional de autenticação, como o informe de um código que chega no seu celular, por exemplo.</description>
+    </item>
+    
+    <item>
+      <title>Ensinando informática num quadro negro</title>
+      <link>http://danielsantos.org/2018/03/ensinando-informatica-num-quadro-negro/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2018/03/ensinando-informatica-num-quadro-negro/</guid>
+      <description>Estava assistindo edição de ontem do Telediario, telejornal da RTVE, como mais um dos meus esforços para aprender espanhol, quando me deparei com uma situação que me fez ter certeza de que a capacidade que os seres humanos têm de superar dificuldades nunca deve ser subestimada.
+Richard Appiah Akoto é um professor de 33 anos que leciona Tecnologia da Informação e Comunicação (TIC) no Betenase M/A Junior High School da cidade de Sekyedomase, em Gana, uma escola que não tem um computador sequer, ainda que, naquele país, desde 2011, as crianças entre 14 e 15 anos de idade devam ser aprovadas em um exame nacional sem os quais não poderão ingressar na faculdade, onde TIC é uma das matérias.</description>
+    </item>
+    
+    <item>
+      <title>Clozemaster: Uma forma ¡genial! de aprender idiomas</title>
+      <link>http://danielsantos.org/2018/02/clozemaster-uma-forma-genial-de-aprender-idiomas/</link>
+      <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2018/02/clozemaster-uma-forma-genial-de-aprender-idiomas/</guid>
+      <description>Tenho estudando espanhol por conta própria desde o final de 2016, e estou sempre em busca de novas ferramentas e recursos que me permitam agregar alguna cosa a mi parco conocimento del idioma. Às vezes encontro coisas realmente interessantes e decido compartilhá-las por aqui. Foi o caso, esta semana, quando me deparei com o Clozemaster, site que permite o aprendizado de uma série de idiomas e cujo nome vem da técnica de cloze tests, conceito que eu já havia mencionado em 2016, ao falar sobre outra ferramenta muito interessante, o Readlang.</description>
+    </item>
+    
+    <item>
+      <title>Selecione apenas as células visíveis no Excel</title>
+      <link>http://danielsantos.org/2017/11/selecione-apenas-as-celulas-visiveis-no-excel/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2017/11/selecione-apenas-as-celulas-visiveis-no-excel/</guid>
+      <description>Já aconteceu com todo mundo que eu conheço: O Excel pode agir de forma inesperada quando você resolve copiar e colar uma determinada faixa de células de uma planilha. O comportamento padrão da ferramenta é copiar e colar todas as células, ainda que algumas delas estejam ocultas, qualquer que seja o motivo para isso.
+Só que, às vezes, o que você quer fazer é trabalhar só com os dados que estão visíveis.</description>
+    </item>
+    
+    <item>
+      <title>Segundos em hh:mm:ss no Excel</title>
+      <link>http://danielsantos.org/2017/10/segundos-em-hhmmss-no-excel/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2017/10/segundos-em-hhmmss-no-excel/</guid>
+      <description>Você já precisou converter um valor expresso em segundos para horas, minutos e segundos (HH:MM:SS) usando o Excel?
+Se você é um usuário do Excel no dia-a-dia, pode ser que tenha uma planilha onde estes valores estão em uma determinada coluna, apenas esperando para serem convertidos e utilizados em um relatório que você está gerando. Se você é um usuário um pouco mais avançado e está envolvido com programação de macros em VBA, provavelmente já passou por pelo menos uma situação em que, dado um tempo de processamento de uma rotina ou job em segundos, era necessário realizar e apresentar os resultados desta conversão.</description>
+    </item>
+    
+    <item>
+      <title>Como enviar uma mensagem de WhatsApp para um número que não está nos seus contatos</title>
+      <link>http://danielsantos.org/2017/08/10/enviar-whatsapp-numero-nao-contatos/</link>
+      <pubDate>Thu, 10 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2017/08/10/enviar-whatsapp-numero-nao-contatos/</guid>
+      <description>Com o WhatsApp tendo se tornado a opção número um de milhões de pessoas para comunicação através de mensagens instantâneas, não é de se admirar que algumas vezes nos vejamos às voltas com a seguinte situação: Você precisa enviar uma mensagem através do WhatsApp para alguém, mas não tem o número da pessoa cadastrado em seu celular.
+A situação, embora possa não parecer, é mais comum do que parece: Você pode estar fazendo negociações em sites de leilão como o Mercado Livre, comprando ou vendendo produtos no OLX, ou algo similar.</description>
+    </item>
+    
+    <item>
+      <title>Aprenda um idioma lendo o que você mais gosta</title>
+      <link>http://danielsantos.org/2016/12/aprenda-um-idioma-lendo-o-que-voce-mais-gosta/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2016/12/aprenda-um-idioma-lendo-o-que-voce-mais-gosta/</guid>
+      <description>Recentemente estabeleci como meta pessoal que ia começar a aprender espanhol. Não há nenhum motivo específico para isso, a não ser minha própria vontade de tornar o idioma ibérico uma companhia para o inglês, o qual falo fluentemente, e para o francês, em que eu possuo nível básico de compreensão.
+Embora, na minha opinião, um idioma se aprenda principalmente através de fortes estudos ligados à gramática, incluindo-se ai, portanto, verbos, adjetivos, conjunções, pronomes e afins, considero o acúmulo de vocabulário outra parte fundamental do aprendizado.</description>
+    </item>
+    
+    <item>
+      <title>A história do &#39;Deixa que eu deixo&#39;</title>
+      <link>http://danielsantos.org/artigos/20161203-a-historia-do-deixa-que-eu-deixo/</link>
+      <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/artigos/20161203-a-historia-do-deixa-que-eu-deixo/</guid>
+      <description>Esta semana estava me lembrando de uma historinha que ouvi há muito tempo, quando comecei a trabalhar com gestão de processos, e que passei a contar às pessoas, em geral para ilustrar uma das situações mais corriqueiras que existem, o famoso &amp;ldquo;deixa que eu deixo&amp;rdquo;.
+Trata-se do seguinte:
+ Havia quatro funcionários que trabalhavam em uma empresa. Seus nomes eram Todo Mundo, Alguém, **Qualquer Um **e Ninguém.
+Nesta empresa existia uma tarefa muito importante, que precisava ser executada o mais rapidamente possível.</description>
+    </item>
+    
+    <item>
+      <title>O cavalo de Schilda</title>
+      <link>http://danielsantos.org/artigos/20161210-o-cavalo-de-schilda/</link>
+      <pubDate>Sat, 10 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/artigos/20161210-o-cavalo-de-schilda/</guid>
+      <description>Existe uma velha história do folclore alemão que foi recontada por Sigmund Freud ao final de sua palestra &amp;ldquo;Cinco Lições de Psicanálise&amp;quot;, na Clark University, em Worcester, Massachusetts, no mês de setembro de 1909, que é assim:
+ A literatura alemã conhece um vilarejo chamado Schilda, de cujos habitantes se contam todas as &amp;lsquo;espertezas&amp;rsquo; possíveis. Dizem que possuíam eles um cavalo com cuja força e trabalho estavam satisfeitíssimos. Uma só coisa lamentavam: consumia aveia demais e esta era cara.</description>
+    </item>
+    
+    <item>
+      <title>Troque teclado e mouse por joystick nos jogos para PC</title>
+      <link>http://danielsantos.org/2016/07/troque-teclado-e-mouse-por-joystick-nos-jogos-para-pc/</link>
+      <pubDate>Tue, 26 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2016/07/troque-teclado-e-mouse-por-joystick-nos-jogos-para-pc/</guid>
+      <description>Há cerca de dois anos eu presenteei meus dois filhos com um Xbox One, console de jogos da Microsoft o qual eu acho excelente, e que conta com uma série de jogos bacanas que são capazes de nos distrair por horas e horas.
+ Quando paro pra pensar no **joystick **do Xbox One, percebo o quanto o controle evoluiu desde a época de seu tataravô, o Atari. Naquela época o controle que usávamos era uma caixa composta por um bastão e um botão, e nem chegava perto dos seus descendentes modernos, todos com sticks, triggers e botões, anatomicamente localizados para facilitar a vida dos jogadores, que assim podem se concentrar na tela, onde toda a ação acontece.</description>
+    </item>
+    
+    <item>
+      <title>Quer ajudar seu filho com a tarefa? Use Kanban!</title>
+      <link>http://danielsantos.org/2016/06/quer-ajudar-seu-filho-com-a-tarefa-use-kanban/</link>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2016/06/quer-ajudar-seu-filho-com-a-tarefa-use-kanban/</guid>
+      <description>O tempo passa muito depressa mesmo: Meu filho mais velho chegou à sexta série no colégio em que estuda. Trata-se de uma fase em que a quantidade de matérias que a escola repassa a ele e seus colegas triplica ou quadriplica, atingindo proporções nunca antes enfrentadas por ele.
+Como se adaptar à uma mudança na quantidade de tarefas e obrigações que precisam ser concluídas pode levar um certo tempo, é mais do que natural que, ao longo do processo, algumas das tarefas por fazer acabem sendo esquecidas: Se nós adultos já estamos sujeitos a passar por isso &amp;mdash; ao gerenciarmos algumas centenas de atividades por mês &amp;mdash;, que dirá nossos filhos, não é mesmo?</description>
+    </item>
+    
+    <item>
+      <title>Você sabe usar a função PROCV()?</title>
+      <link>http://danielsantos.org/2016/06/voce-sabe-usar-a-funcao-procv/</link>
+      <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2016/06/voce-sabe-usar-a-funcao-procv/</guid>
+      <description>Esta vem do tempo em que eu ainda dava aula de informática &amp;mdash; ou, pasmem, computação&amp;mdash;, lá pelos idos do século passado. Até hoje, muitas pessoas não sabem ao certo para que serve a função PROCV do Excel: algumas delas, inclusive, trabalharam comigo, e, como sempre procuro eesclarecer a elas os benefícios que pode proporcionar, resolvi criar um post a esse respeito por aqui.
+Para que serve PROCV? A função PROCV &amp;mdash; que recebe este nome, na verdade, por ser uma abreviação, até onde sempre imaginei, de PROCura na Vertical &amp;mdash; é uma das diversas funções disponibilizadas pela Microsoft no Excel para realização de pesquisas, ou busca de referências.</description>
+    </item>
+    
+    <item>
+      <title>Assim era um HD em 1956</title>
+      <link>http://danielsantos.org/2015/10/assim-era-um-hd-em-1956/</link>
+      <pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2015/10/assim-era-um-hd-em-1956/</guid>
+      <description>Tempos difícies? Um hard disk da IBM em 1956, com apenas 5MB de capacidade! Atualmente, um iPhone possui 25.600.000x mais capacidade!</description>
+    </item>
+    
+    <item>
+      <title>Como desentupir uma lapiseira?</title>
+      <link>http://danielsantos.org/2015/09/como-desentupir-uma-lapiseira/</link>
+      <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2015/09/como-desentupir-uma-lapiseira/</guid>
+      <description>.box {margin: 0 0 1.5em 0;border-width: 2px;border-style: solid;border-color: #44ccff;}.box-title {display: block;padding: 0.5em 1em;font-weight: bold;font-size: 1.1em;background-color: #44ccff;color: #fff;}.box-content {color: #000;background-color: #EEE;padding: 1em;}TL; DR:Pegue um grampo, destes de grampeador, e introduza na ponta de sua lapiseira entupida. Pronto, problema resolvido.Eu não sei quanto à vocês, mas na época em que ganhei minha primeira lapiseira &amp;mdash; uma Pentel P205 clássica, de 0,5 mm, ainda criança &amp;mdash;, me lembro que, além da borracha na parte de trás, ela também veio com uma pequena haste metálica que era embutida na borracha: o famoso desentupidor.</description>
+    </item>
+    
+    <item>
+      <title>Configure seu joystick USB PC para jogar no Steam</title>
+      <link>http://danielsantos.org/2014/02/configure-seu-joystick-usb-pc-para-jogar-no-steam/</link>
+      <pubDate>Sat, 22 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2014/02/configure-seu-joystick-usb-pc-para-jogar-no-steam/</guid>
+      <description>Este simpático joystick aí de cima é o Multilaser JS061, que foi um dos presentes de Natal que eu dei ao meu filho no ano passado, depois que ele me disse que gostaria de jogar Mortal Kombat Komplete Edition de uma forma mais fácil e simples. Trata-se de um modelo bem bacana,wireless, para permitir que os movimentos sejam mais livres, sem o risco de enroscar em algum cabo por aí enquanto estamos jogando: Você simplesmente encaixa o adaptador USB e sai jogando normalmente.</description>
+    </item>
+    
+    <item>
+      <title>Como ensinei meu filho a andar de bicicleta</title>
+      <link>http://danielsantos.org/2012/11/como-ensinei-meu-filho-a-andar-de-bicicleta/</link>
+      <pubDate>Sun, 18 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2012/11/como-ensinei-meu-filho-a-andar-de-bicicleta/</guid>
+      <description>Em abril deste ano resolvemos tirar as rodinhas da bicicleta do Alexandre para que ele pudesse começar a andar sem elas, tal como vários coleguinhas da escola já vinham fazendo. Mas como fazer para ensinar uma criança de, naquela época, 6 anos, a se equilibrar na bicicleta?
+O Alexandre é um menino enorme, e, assim sendo, extremamente pesado, mesmo sendo magro. Quando resolvemos começar a usar as *técnicas padrão *para ensiná-lo a se equilibrar, ou seja, segurar no guidão e atrás do selim enquanto o empurrávamos, percebemos dois fenômenos interessantes:</description>
+    </item>
+    
+    <item>
+      <title>Daniel quem?</title>
+      <link>http://danielsantos.org/sobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/sobre/</guid>
+      <description>Olá! Tudo bem? Meu nome é Daniel Santos. Sou um analista de sistemas brasileiro, nascido na cidade de São José dos Campos, São Paulo, onde vivo com minha esposa e dois filhos.
+Este site é menos um blog e mais um silo: é aqui que concentro os links que remetem às coisas que eu gosto, armazeno notas, considerações, textos, snippets e explicações de coisas das quais eu provavelmente precisarei me lembrar no futuro.</description>
+    </item>
+    
+    <item>
+      <title>Have links, will travel ;)</title>
+      <link>http://danielsantos.org/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/links/</guid>
+      <description>Quando eu comecei a navegar pela internet, era muito comum que os sites tivessem páginas de links. Estou online desde 1997, época em que os mecanismos de busca &amp;mdash; 👋 hello Google? &amp;mdash; eram uma tecnologia praticamente recém-nascida e experimental e encontrar seu caminho na grande rede dependia da curadoria de sites que valia a pena visitar.
+Quero trazer isso de volta, então&amp;hellip; voilà:
+Referências   Reddit: Este site não recebe o nome de front page da internet à toa.</description>
+    </item>
+    
+    <item>
+      <title>Now</title>
+      <link>http://danielsantos.org/now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/now/</guid>
+      <description>Atualizado em 22/12/2019
+O que tem me ocupado, sem nenhuma ordem em particular   Após concluir meu desafio pessoal de ler pelo menos 20 livros em 2019, procuro terminar o vigésimo primeiro, e, quem sabe, até conseguir a façanha de ler 22 libros em um único ano;
+  A caminho de concluir doze temporadas de The Big Bang Theory, depois de resolver assistir todas elas em sequência (detalhe: é a primeira vez que assisto a série em sequência, apesar de já ter visto alguns episódios aleatórios);</description>
+    </item>
+    
+  </channel>
+</rss>

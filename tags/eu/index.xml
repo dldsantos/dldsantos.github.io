@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eu on Daniel Santos</title>
+    <link>http://danielsantos.org/tags/eu/</link>
+    <description>Recent content in eu on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/tags/eu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Soluços</title>
+      <link>http://danielsantos.org/2019/11/solucos/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2019/11/solucos/</guid>
+      <description>Quem nunca teve uma crise de soluços do nada que atire a primeira pedra.
+Alias, convenhamos que sempre que a gente soluça aparece alguém que conhece uma técnica, receita ou fórmula mágica pra acabar com eles, não é mesmo?
+Confesso que eu gosto dessas técnicas. São meio que lifehacks, à sua maneira. Algumas são bem antigas e já me eram sugeridas pela minha avó, como beber água, colocar a língua bem pra fora e segurar com os dedos ou prender a respiração por alguns segundos, sendo que a lógica dessas coisas é corrigir contrações involuntárias do diafragma, causa dos soluços.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>comunicação on Daniel Santos</title>
+    <link>http://danielsantos.org/tags/comunicacao/</link>
+    <description>Recent content in comunicação on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/tags/comunicacao/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Falha de Comunicação</title>
+      <link>http://danielsantos.org/artigos/20180907-falha-de-comunicacao/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/artigos/20180907-falha-de-comunicacao/</guid>
+      <description>O que reproduzo abaixo é o que chamaria de piada corporativa. Trata-se de um texto que circulou há muito tempo e que, mesmo assim, continua sendo bastante atual, já que lida com um dos assuntos que historicamente mais causam problemas em qualquer empresa, não importa o seu tamanho: a comunicação.
+Se a comunicação for falha, duplicada ou cheia de ruídos, atravessará todos os departamentos das corporações de maneira equivocada e acabará prejudicando uma das condições básicas para o atingimento da eficácia.</description>
+    </item>
+    
+  </channel>
+</rss>

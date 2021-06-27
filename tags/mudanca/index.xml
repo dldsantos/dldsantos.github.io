@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mudança on Daniel Santos</title>
+    <link>http://danielsantos.org/tags/mudanca/</link>
+    <description>Recent content in mudança on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/tags/mudanca/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>O modelo ADKAR e o respeito à faixa de pedestres</title>
+      <link>http://danielsantos.org/artigos/o-modelo-adkar-e-o-respeito-a-faixa-de-pedestres/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/artigos/o-modelo-adkar-e-o-respeito-a-faixa-de-pedestres/</guid>
+      <description>Recebi por WhatsApp nesta semana um vídeo muito interessante: trata-se de uma campanha de conscientização idealizada pela Société de l’assurance automobile du Québec (SAAQ), órgão canadense equivalente ao Detran brasileiro para os habitantes da província do Quebec.
+O vídeo, publicado pela SAAQ em seu canal do YouTube no último dia 30 de outubro, mostra a dificuldade que os pedestres têm em atravessar a rua utilizando a faixa apropriada para isso.</description>
+    </item>
+    
+  </channel>
+</rss>

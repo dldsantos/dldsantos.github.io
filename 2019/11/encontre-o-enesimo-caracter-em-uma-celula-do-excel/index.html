@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Encontre o enésimo caracter em uma célula do Excel - Daniel Santos</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="Encontre o enésimo caracter em uma célula do Excel">
+<meta itemprop="description" content="Hoje compartilharei com vocês uma solução simples para encontrar a posição do enésimo caracter em uma cadeia de texto, ou string, dentro de uma célula do Excel, utilizando as funções LOCALIZARkeyboard {font-size: 0.8em;background-color: #fff;padding: 0px 1px 0px 1px;;border-style: solid;border-width: 1px 1px 1px 1px;border-radius: 4px;}e SUBSTITUIRkeyboard {font-size: 0.8em;background-color: #fff;padding: 0px 1px 0px 1px;;border-style: solid;border-width: 1px 1px 1px 1px;border-radius: 4px;}.">
+<meta itemprop="datePublished" content="2019-11-26T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-11-26T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="461">
+
+
+
+<meta itemprop="keywords" content="tutorial," /><meta property="og:title" content="Encontre o enésimo caracter em uma célula do Excel" />
+<meta property="og:description" content="Hoje compartilharei com vocês uma solução simples para encontrar a posição do enésimo caracter em uma cadeia de texto, ou string, dentro de uma célula do Excel, utilizando as funções LOCALIZARkeyboard {font-size: 0.8em;background-color: #fff;padding: 0px 1px 0px 1px;;border-style: solid;border-width: 1px 1px 1px 1px;border-radius: 4px;}e SUBSTITUIRkeyboard {font-size: 0.8em;background-color: #fff;padding: 0px 1px 0px 1px;;border-style: solid;border-width: 1px 1px 1px 1px;border-radius: 4px;}." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://danielsantos.org/2019/11/encontre-o-enesimo-caracter-em-uma-celula-do-excel/" />
+<meta property="article:published_time" content="2019-11-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-11-26T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Encontre o enésimo caracter em uma célula do Excel"/>
+<meta name="twitter:description" content="Hoje compartilharei com vocês uma solução simples para encontrar a posição do enésimo caracter em uma cadeia de texto, ou string, dentro de uma célula do Excel, utilizando as funções LOCALIZARkeyboard {font-size: 0.8em;background-color: #fff;padding: 0px 1px 0px 1px;;border-style: solid;border-width: 1px 1px 1px 1px;border-radius: 4px;}e SUBSTITUIRkeyboard {font-size: 0.8em;background-color: #fff;padding: 0px 1px 0px 1px;;border-style: solid;border-width: 1px 1px 1px 1px;border-radius: 4px;}."/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://danielsantos.org/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://danielsantos.org/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://danielsantos.org/css/dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="http://danielsantos.org/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="http://danielsantos.org/">
+				<img src="https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg" alt="Daniel Santos" />
+			</a>
+		</div>
+	
+	<h1 class="site-title"><a href="http://danielsantos.org/">Daniel Santos</a></h1>
+	<div class="site-description"><p>Crisp, minimal personal <a href="https://github.com/knadh/hugo-ink">blog theme for Hugo</a></p><nav class="nav social">
+			<ul class="flat"><li><a href="https://twitter.com/dldsantos" title="Twitter"><i data-feather="twiter"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">Posts</a>
+			</li>
+			
+			<li>
+				<a href="/artigos">Artigos</a>
+			</li>
+			
+			<li>
+				<a href="/links">Links</a>
+			</li>
+			
+			<li>
+				<a href="/sobre">Sobre</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">26</span>
+							<span class="rest">Nov 2019</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Encontre o enésimo caracter em uma célula do Excel</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<p>Hoje compartilharei com vocês uma solução simples para encontrar a posição do <em>enésimo</em> caracter em uma cadeia de texto, ou <em>string</em>, dentro de uma célula do Excel, utilizando as funções 
+	<span class="keyboard"><kbd>LOCALIZAR</kbd></span>
+
+<style type="text/css">
+	keyboard {
+	  font-size: 0.8em;
+	  background-color: #fff;
+	  padding: 0px 1px 0px 1px;;
+	  border-style: solid;
+	  border-width: 1px 1px 1px 1px;
+	  border-radius: 4px;
+	}
+</style>
+ e 
+	<span class="keyboard"><kbd>SUBSTITUIR</kbd></span>
+
+<style type="text/css">
+	keyboard {
+	  font-size: 0.8em;
+	  background-color: #fff;
+	  padding: 0px 1px 0px 1px;;
+	  border-style: solid;
+	  border-width: 1px 1px 1px 1px;
+	  border-radius: 4px;
+	}
+</style>
+. Mas antes, vou falar sobre cada uma destas funções isoladamente, para facilitar o entendimento.</p>
+<p><strong>#TL;DR:</strong> Pule diretamente para a <a href="#a-soluo">solução</a>, se quiser.</p>
+<h2 id="a-funo-localizar">A função LOCALIZAR</h2>
+<p>É possível que você já conheça e tenha utilizado a função 
+	<span class="keyboard"><kbd>LOCALIZAR</kbd></span>
+
+<style type="text/css">
+	keyboard {
+	  font-size: 0.8em;
+	  background-color: #fff;
+	  padding: 0px 1px 0px 1px;;
+	  border-style: solid;
+	  border-width: 1px 1px 1px 1px;
+	  border-radius: 4px;
+	}
+</style>
+ do Excel. Ela retorna a posição numérica de uma cadeia de texto dentro de outra, e, caso não encontre a cadeia procurada, resulta em uma mensagem de erro 
+	<span class="keyboard"><kbd>#VALOR</kbd></span>
+
+<style type="text/css">
+	keyboard {
+	  font-size: 0.8em;
+	  background-color: #fff;
+	  padding: 0px 1px 0px 1px;;
+	  border-style: solid;
+	  border-width: 1px 1px 1px 1px;
+	  border-radius: 4px;
+	}
+</style>
+.</p>
+<p>Ela precisa de três argumentos para funcionar:</p>
+<ul>
+<li>
+<p><strong>texto_procurado:</strong>  É um valor obrigatório, que representa o texto que se deseja localizar.</p>
+</li>
+<li>
+<p><strong>no_texto:</strong> É outro valor obrigatório, que representa o texto no qual se deseja procurar o texto_procurado.</p>
+</li>
+<li>
+<p><strong>núm_inicial</strong>: Este é um valor <em>opcional</em> e informa a posição do texto em que se deseja iniciar a busca. Se não for informado, adota 1 como padrão.</p>
+</li>
+</ul>
+<p>Apesar de muito útil no dia-a-dia, uma limitação importante da função 
+	<span class="keyboard"><kbd>LOCALIZAR</kbd></span>
+
+<style type="text/css">
+	keyboard {
+	  font-size: 0.8em;
+	  background-color: #fff;
+	  padding: 0px 1px 0px 1px;;
+	  border-style: solid;
+	  border-width: 1px 1px 1px 1px;
+	  border-radius: 4px;
+	}
+</style>
+ é que ela localiza <strong>apenas a primeira ocorrência</strong> do texto procurado. Ou seja, 
+	<span class="keyboard"><kbd>=LOCALIZAR(“a”;”palavra”)</kbd></span>
+
+<style type="text/css">
+	keyboard {
+	  font-size: 0.8em;
+	  background-color: #fff;
+	  padding: 0px 1px 0px 1px;;
+	  border-style: solid;
+	  border-width: 1px 1px 1px 1px;
+	  border-radius: 4px;
+	}
+</style>
+ retorna <strong>2</strong> como resultado, pois o primeiro “a” se encontra nesta posição.</p>
+<p>Esta limitação foi parte do problema que tive.</p>
+<h2 id="a-funo-substituir">A função SUBSTITUIR</h2>
+<p>É possível que você também já conheça e tenha utilizado a função 
+	<span class="keyboard"><kbd>SUBSTITUIR</kbd></span>
+
+<style type="text/css">
+	keyboard {
+	  font-size: 0.8em;
+	  background-color: #fff;
+	  padding: 0px 1px 0px 1px;;
+	  border-style: solid;
+	  border-width: 1px 1px 1px 1px;
+	  border-radius: 4px;
+	}
+</style>
+ do Excel. Ela coloca um novo texto no lugar de outro texto que esteja em uma cadeia de texto</p>
+<h2 id="o-problema">O problema</h2>
+<p>Passei por um problema recentemente onde eu estava trabalhando em diversos relatórios com listagens de arquivos, e, obviamente, é de se esperar que nestes casos tenhamos <em>paths</em> decom o seguinte formato:</p>
+<p><code>F:\USERS\DANIEL\DOCS\2019\arquivo.txt</code></p>
+<p>Eu precisava encontrar a posição da terceira ocorrência do caractere <code>\</code>, e dada a limitação da função LOCALIZAR, não era possível.</p>
+<p>Então precisei recorrer a uma combinação das funções <strong>LOCALIZAR</strong> e <strong>SUBSTITUIR</strong>.</p>
+<h2 id="a-soluo">A solução</h2>
+<p>=LOCALIZAR(“@“;SUBSTITUIR(A2,&ldquo;a&rdquo;,”@“,3))</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/tutorial">tutorial</a></li>
+							
+						</ul>
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2021  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+</body>
+</html>

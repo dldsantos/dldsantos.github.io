@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dicas on Daniel Santos</title>
+    <link>http://danielsantos.org/tags/dicas/</link>
+    <description>Recent content in dicas on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/tags/dicas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dê adeus aos seus comprovantes de votação</title>
+      <link>http://danielsantos.org/2018/08/de-adeus-aos-seus-comprovantes-de-votacao/</link>
+      <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2018/08/de-adeus-aos-seus-comprovantes-de-votacao/</guid>
+      <description>.box {margin: 0 0 1.5em 0;border-width: 2px;border-style: solid;border-color: #44ccff;}.box-title {display: block;padding: 0.5em 1em;font-weight: bold;font-size: 1.1em;background-color: #44ccff;color: #fff;}.box-content {color: #000;background-color: #EEE;padding: 1em;}NotaEsta é uma versão atualizada do texto que eu publiquei na antiga versão do meu site, em 14/09/2010. Nela, os endereços de todos os links foram revisados para que a informação continue sendo útil.</description>
+    </item>
+    
+    <item>
+      <title>Selecione apenas as células visíveis no Excel</title>
+      <link>http://danielsantos.org/2017/11/selecione-apenas-as-celulas-visiveis-no-excel/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2017/11/selecione-apenas-as-celulas-visiveis-no-excel/</guid>
+      <description>Já aconteceu com todo mundo que eu conheço: O Excel pode agir de forma inesperada quando você resolve copiar e colar uma determinada faixa de células de uma planilha. O comportamento padrão da ferramenta é copiar e colar todas as células, ainda que algumas delas estejam ocultas, qualquer que seja o motivo para isso.
+Só que, às vezes, o que você quer fazer é trabalhar só com os dados que estão visíveis.</description>
+    </item>
+    
+    <item>
+      <title>Troque teclado e mouse por joystick nos jogos para PC</title>
+      <link>http://danielsantos.org/2016/07/troque-teclado-e-mouse-por-joystick-nos-jogos-para-pc/</link>
+      <pubDate>Tue, 26 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2016/07/troque-teclado-e-mouse-por-joystick-nos-jogos-para-pc/</guid>
+      <description>Há cerca de dois anos eu presenteei meus dois filhos com um Xbox One, console de jogos da Microsoft o qual eu acho excelente, e que conta com uma série de jogos bacanas que são capazes de nos distrair por horas e horas.
+ Quando paro pra pensar no **joystick **do Xbox One, percebo o quanto o controle evoluiu desde a época de seu tataravô, o Atari. Naquela época o controle que usávamos era uma caixa composta por um bastão e um botão, e nem chegava perto dos seus descendentes modernos, todos com sticks, triggers e botões, anatomicamente localizados para facilitar a vida dos jogadores, que assim podem se concentrar na tela, onde toda a ação acontece.</description>
+    </item>
+    
+    <item>
+      <title>Quer ajudar seu filho com a tarefa? Use Kanban!</title>
+      <link>http://danielsantos.org/2016/06/quer-ajudar-seu-filho-com-a-tarefa-use-kanban/</link>
+      <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2016/06/quer-ajudar-seu-filho-com-a-tarefa-use-kanban/</guid>
+      <description>O tempo passa muito depressa mesmo: Meu filho mais velho chegou à sexta série no colégio em que estuda. Trata-se de uma fase em que a quantidade de matérias que a escola repassa a ele e seus colegas triplica ou quadriplica, atingindo proporções nunca antes enfrentadas por ele.
+Como se adaptar à uma mudança na quantidade de tarefas e obrigações que precisam ser concluídas pode levar um certo tempo, é mais do que natural que, ao longo do processo, algumas das tarefas por fazer acabem sendo esquecidas: Se nós adultos já estamos sujeitos a passar por isso &amp;mdash; ao gerenciarmos algumas centenas de atividades por mês &amp;mdash;, que dirá nossos filhos, não é mesmo?</description>
+    </item>
+    
+    <item>
+      <title>Você sabe usar a função PROCV()?</title>
+      <link>http://danielsantos.org/2016/06/voce-sabe-usar-a-funcao-procv/</link>
+      <pubDate>Sat, 04 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2016/06/voce-sabe-usar-a-funcao-procv/</guid>
+      <description>Esta vem do tempo em que eu ainda dava aula de informática &amp;mdash; ou, pasmem, computação&amp;mdash;, lá pelos idos do século passado. Até hoje, muitas pessoas não sabem ao certo para que serve a função PROCV do Excel: algumas delas, inclusive, trabalharam comigo, e, como sempre procuro eesclarecer a elas os benefícios que pode proporcionar, resolvi criar um post a esse respeito por aqui.
+Para que serve PROCV? A função PROCV &amp;mdash; que recebe este nome, na verdade, por ser uma abreviação, até onde sempre imaginei, de PROCura na Vertical &amp;mdash; é uma das diversas funções disponibilizadas pela Microsoft no Excel para realização de pesquisas, ou busca de referências.</description>
+    </item>
+    
+    <item>
+      <title>Como desentupir uma lapiseira?</title>
+      <link>http://danielsantos.org/2015/09/como-desentupir-uma-lapiseira/</link>
+      <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2015/09/como-desentupir-uma-lapiseira/</guid>
+      <description>.box {margin: 0 0 1.5em 0;border-width: 2px;border-style: solid;border-color: #44ccff;}.box-title {display: block;padding: 0.5em 1em;font-weight: bold;font-size: 1.1em;background-color: #44ccff;color: #fff;}.box-content {color: #000;background-color: #EEE;padding: 1em;}TL; DR:Pegue um grampo, destes de grampeador, e introduza na ponta de sua lapiseira entupida. Pronto, problema resolvido.Eu não sei quanto à vocês, mas na época em que ganhei minha primeira lapiseira &amp;mdash; uma Pentel P205 clássica, de 0,5 mm, ainda criança &amp;mdash;, me lembro que, além da borracha na parte de trás, ela também veio com uma pequena haste metálica que era embutida na borracha: o famoso desentupidor.</description>
+    </item>
+    
+    <item>
+      <title>Configure seu joystick USB PC para jogar no Steam</title>
+      <link>http://danielsantos.org/2014/02/configure-seu-joystick-usb-pc-para-jogar-no-steam/</link>
+      <pubDate>Sat, 22 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2014/02/configure-seu-joystick-usb-pc-para-jogar-no-steam/</guid>
+      <description>Este simpático joystick aí de cima é o Multilaser JS061, que foi um dos presentes de Natal que eu dei ao meu filho no ano passado, depois que ele me disse que gostaria de jogar Mortal Kombat Komplete Edition de uma forma mais fácil e simples. Trata-se de um modelo bem bacana,wireless, para permitir que os movimentos sejam mais livres, sem o risco de enroscar em algum cabo por aí enquanto estamos jogando: Você simplesmente encaixa o adaptador USB e sai jogando normalmente.</description>
+    </item>
+    
+    <item>
+      <title>Como ensinei meu filho a andar de bicicleta</title>
+      <link>http://danielsantos.org/2012/11/como-ensinei-meu-filho-a-andar-de-bicicleta/</link>
+      <pubDate>Sun, 18 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2012/11/como-ensinei-meu-filho-a-andar-de-bicicleta/</guid>
+      <description>Em abril deste ano resolvemos tirar as rodinhas da bicicleta do Alexandre para que ele pudesse começar a andar sem elas, tal como vários coleguinhas da escola já vinham fazendo. Mas como fazer para ensinar uma criança de, naquela época, 6 anos, a se equilibrar na bicicleta?
+O Alexandre é um menino enorme, e, assim sendo, extremamente pesado, mesmo sendo magro. Quando resolvemos começar a usar as *técnicas padrão *para ensiná-lo a se equilibrar, ou seja, segurar no guidão e atrás do selim enquanto o empurrávamos, percebemos dois fenômenos interessantes:</description>
+    </item>
+    
+  </channel>
+</rss>

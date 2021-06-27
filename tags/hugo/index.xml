@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Daniel Santos</title>
+    <link>http://danielsantos.org/tags/hugo/</link>
+    <description>Recent content in hugo on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Do Wordpress para o Hugo</title>
+      <link>http://danielsantos.org/2019/11/do-wordpress-para-o-hugo/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2019/11/do-wordpress-para-o-hugo/</guid>
+      <description>Movido por uma insatisfação que já me consumia há algum tempo, tomei uma decisão: Troquei o Wordpress pelo Hugo CMS para gerar o conteúdo deste site. Na prática, isso significa que mudei de um site dinâmico para um estático.
+Qual a diferença entre site dinâmico e site estático? A diferença básica está no conteúdo. É simples:
+  Sites dinâmicos são aqueles que alteram o conteúdo de suas páginas dinamicamente sempre que elas são exibidas no navegador de um usuário.</description>
+    </item>
+    
+  </channel>
+</rss>

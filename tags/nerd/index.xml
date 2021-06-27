@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nerd on Daniel Santos</title>
+    <link>http://danielsantos.org/tags/nerd/</link>
+    <description>Recent content in nerd on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/tags/nerd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Como ensinar algoritmos para quem não programa</title>
+      <link>http://danielsantos.org/2019/11/como-ensinar-algoritmos-para-quem-nao-programa/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2019/11/como-ensinar-algoritmos-para-quem-nao-programa/</guid>
+      <description>Algoritmos, conforme me lembro da época do colégio técnico e da faculdade de Ciências da Computação, são &amp;ldquo;conjuntos das regras e procedimentos lógicos, perfeitamente definidos, que levam à solução de um problema em um número finito de etapas&amp;quot;.
+Simples, não é mesmo? Bom, à medida em que praticamos, é verdade.
+Mas, até que você consiga pegar o jeito, tem que prestar uma enorme atenção na descrição das etapas e no nível de detalhe correto, para que a solução seja realmente satisfatória, assim como as crianças deste vídeo estão prestes a descobrir.</description>
+    </item>
+    
+    <item>
+      <title>Assim era um HD em 1956</title>
+      <link>http://danielsantos.org/2015/10/assim-era-um-hd-em-1956/</link>
+      <pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2015/10/assim-era-um-hd-em-1956/</guid>
+      <description>Tempos difícies? Um hard disk da IBM em 1956, com apenas 5MB de capacidade! Atualmente, um iPhone possui 25.600.000x mais capacidade!</description>
+    </item>
+    
+  </channel>
+</rss>

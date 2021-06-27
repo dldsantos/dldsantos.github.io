@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pessoal on Daniel Santos</title>
+    <link>http://danielsantos.org/tags/pessoal/</link>
+    <description>Recent content in pessoal on Daniel Santos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 05 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://danielsantos.org/tags/pessoal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Minha página Now</title>
+      <link>http://danielsantos.org/2018/08/minha-pagina-now/</link>
+      <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://danielsantos.org/2018/08/minha-pagina-now/</guid>
+      <description>Em todas as versões que este site já teve, sempre incluí uma página sobre mim, para que quem me visitasse na grande rede mundial de computadores pudesse saber um pouco sobre o que faço, de onde vim, e assim por diante.
+Só que outro dia, estava navegando aleatoriamente e acabei encontrando a página do Derek Sivers, onde descobri um movimento que ele batizou de /now page movement.
+ What is a “now page”?</description>
+    </item>
+    
+  </channel>
+</rss>
